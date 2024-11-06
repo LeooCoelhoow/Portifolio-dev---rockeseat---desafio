@@ -24,10 +24,14 @@
   --font-family-asap: "asap", 'sans serif';
   --font-family-inconsolata: "inconsolata", 'sans serif';
   --font-family-maven-pro: 'maven pro', "serif";
-  --title-lg: 56px/120% 700;
-  --title-md: 24px/120% 700;
-  --title-sm: 16px/120% 700;
-  --subtitle: 20px/120% 400;
-  --text-md: 16px/140% 400;
-  --text-sm: 14px/140% 400;
+  --title-lg: 56px/120% 700 var(--title-lg);
+  --title-md: 24px/120% 700 var(--title-md);
+  --title-sm: 16px/120% 700 var(--title-sm);
+  --subtitle: 20px/120% 400 var(--subtitle);
+  --text-md: 16px/140% 400 var(--text-md);
+  --text-sm: 14px/140% 400 var(--text-sm);
+}
+
+body {
+  width: 1366px;
 }
