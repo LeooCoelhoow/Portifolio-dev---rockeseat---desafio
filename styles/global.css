@@ -34,4 +34,6 @@
 
 body {
   width: 1366px;
+
+  color: var(--gray-600);
 }

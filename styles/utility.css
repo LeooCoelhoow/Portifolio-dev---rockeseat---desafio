@@ -32,6 +32,17 @@
   --text-sm: 400 14px/140% var(--font-family-maven-pro);
   
   /*utilities*/
-  --grid: display:grid;
+  .grid {
+    display:grid;
+  }
+
+  .flex {
+    display: flex;
+  }
+
+  .gap-8 {
+    gap: 8px;
+  }
+
 }
   

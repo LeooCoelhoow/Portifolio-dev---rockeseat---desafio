@@ -9,6 +9,111 @@
   background-repeat: no-repeat;
 }
 
+#avatar {
+  display: flex;
+  margin-top: 120px;
+
+  justify-content: center;
+}
+
 h1 {
   font: var(--subtitle);
+  display: flex;
+  margin-top: 56px;
+
+  justify-content: center;
+}
+
+h1 span {
+  color: var(--red);
+}
+
+.dev-fullstack {
+  display: flex;
+  justify-content: center;
+  
+  font: var(--title-lg);
+}
+
+p {
+  display: flex;
+  justify-content: center;
+  width: 680px;
+  height: 40px;
+  margin: auto;
+  margin-block: 20px;
+  
+  font: var(--text-sm);
+
+  color: var(--gray-400);
+}
+
+figure div {
+  font: var(--text-md);
+  color: var(--gray-500);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+figure {
+  background-color: var(--gray-300);
+  width: 114px;
+  height: 40px;
+  padding-inline: 16px;
+  padding-block: 8px;
+  border-radius: 999px;
+}
+
+#html {
+  background-color: var(--gray-300);
+  width: 105px;
+  height: 40px;
+  padding-inline: 16px;
+  padding-block: 8px;
+  border-radius: 999px;
+}
+
+#css {
+  background-color: var(--gray-300);
+  width: 92px;
+  height: 40px;
+  padding-inline: 16px;
+  padding-block: 8px;
+  border-radius: 999px;
+}
+
+#javascript {
+  background-color: var(--gray-300);
+  width: 138px;
+  height: 40px;
+  padding-inline: 16px;
+  padding-block: 8px;
+  border-radius: 999px;
+}
+
+#react {
+  background-color: var(--gray-300);
+  width: 106px;
+  height: 40px;
+  padding-inline: 16px;
+  padding-block: 8px;
+  border-radius: 999px;
+}
+
+#nodejs {
+  background-color: var(--gray-300);
+  width: 119px;
+  height: 40px;
+  padding-inline: 16px;
+  padding-block: 8px;
+  border-radius: 999px;
+}
+
+.tags {
+  display: flex;
+  gap: 16px;
+  align-items: center;
 }
