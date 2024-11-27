@@ -33,7 +33,7 @@
 }
 
 body {
-  width: 1366px;
+  width: 100vw; /* pra pegar qualquer largura de tela */
 
   color: var(--gray-600);
 }

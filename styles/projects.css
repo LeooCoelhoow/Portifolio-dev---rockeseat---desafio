@@ -1,0 +1,28 @@
+#projects {
+  background-image: url(./assets/Background_Contacts.png);
+  background-size: 100vw 917px;
+  background-repeat: no-repeat;
+}
+
+#intro-projects h2 {
+  display: flex;
+  justify-content: center;
+
+  margin-top: 72px;
+
+  font: var(--subtitle);
+  color: var(--red);
+}
+
+#intro-projects h1 {
+  font: var(--title-md);
+
+  margin-top: 8px;
+  margin-bottom: 56px;
+}
+
+.project-card img {
+  width: 306px;
+  height: 156px;
+  border-radius: 8px;
+}

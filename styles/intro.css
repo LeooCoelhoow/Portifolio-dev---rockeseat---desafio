@@ -128,5 +128,5 @@ figure {
   display: flex;
   justify-content: center;
 
-  margin-top: 94px;
+  margin-block: 94px 57px;
 }
