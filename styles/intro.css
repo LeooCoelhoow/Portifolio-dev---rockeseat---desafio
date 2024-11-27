@@ -58,6 +58,12 @@ figure div {
   justify-content: center;
 }
 
+.container img {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
+
 figure {
   background-color: var(--gray-300);
   width: 114px;
@@ -116,4 +122,11 @@ figure {
   display: flex;
   gap: 16px;
   align-items: center;
+}
+
+#setinha {
+  display: flex;
+  justify-content: center;
+
+  margin-top: 94px;
 }
