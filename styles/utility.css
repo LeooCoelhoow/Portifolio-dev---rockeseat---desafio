@@ -36,12 +36,20 @@
     display:grid;
   }
 
+  .grid-flow-col {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
   .flex {
     display: flex;
   }
 
   .gap-8 {
     gap: 8px;
+  }
+
+  .gap-24 {
+    gap: 24px;
   }
 
 }
