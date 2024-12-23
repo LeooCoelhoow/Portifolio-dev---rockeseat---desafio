@@ -1,0 +1,27 @@
+footer {
+  background-image: url(./assets/Background_Contacts.png);
+  width: 100vw;
+  height: 787px;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  padding-top: 120px;
+}
+
+#header-contacts h2 {
+  font: var(--subtitle);
+  color: var(--purple);
+
+  display: flex;
+  justify-content: center;
+}
+
+#header-contacts h1 {
+  font: var(--title-md);
+
+  margin-top: 8px;
+}
+
+#header-contacts p {
+  margin-top: 8px;
+}
