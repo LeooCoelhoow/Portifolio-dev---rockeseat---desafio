@@ -32,7 +32,7 @@ footer {
   margin-top: 16px;
 }
 
-#link-card {
+.link-card {
   background-color: var(--gray-300);
   width: 400px;
   height: 68px;
@@ -45,7 +45,51 @@ footer {
   gap: 16px;
 }
 
-#link-card img {
+.link-card::after {
+  content: " ";
+  z-index: 0;
+  position: absolute;
+  width: 400px;
+  height: 68px;
+  border-radius: 8px;
+  left: 0;
+  top: 0;
+}
+
+.link-card::before {
+  content: " ";
+  background: linear-gradient(
+    45deg,
+    var(--blue), var(--red), var(--green), var(--gray-500)
+  );
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 500%;
+  z-index: -1;
+  width: calc(400 + 4px);
+  height: calc(68 + 4px);
+  filter: blur(8px);
+
+  /* animação */
+  animation: glowing  20s linear infinite;
+  transition: opacity .3s ease-in-out;
+  border-radius: 10px;
+  opacity: 0;
+}
+
+@keyframes glowing {
+  0% {background-position: 0 0;}
+  50% {background-position: 400% 0;}
+  100% {background-position: 0 0;}
+}
+
+.link-card:hover {
+  opacity: 1;
+}
+
+
+.link-card img {
 
   &:nth-child(0) {
     object-fit: cover;
@@ -60,15 +104,10 @@ footer {
   }
 }
 
-#link-card p {
+.link-card p {
   display: flex;
   align-items: center;
   justify-content: left;
 
   color: var(--gray-500);
-}
-
-#link-card:hover {
-  color: var(--blue);
-  border: 4px;
 }
