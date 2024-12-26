@@ -56,5 +56,9 @@
     gap: 24px;
   }
 
+  .flex-dir-col {
+    flex-direction: column;
+  }
+
 }
   

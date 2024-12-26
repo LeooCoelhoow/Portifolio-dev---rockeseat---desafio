@@ -25,3 +25,50 @@ footer {
 #header-contacts p {
   margin-top: 8px;
 }
+
+#links {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+#link-card {
+  background-color: var(--gray-300);
+  width: 400px;
+  height: 68px;
+  border-radius: 8px;
+  padding: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+#link-card img {
+
+  &:nth-child(0) {
+    object-fit: cover;
+    width: 28px;
+    height: 28px;
+  }
+
+  &:nth-child(2) {
+    object-fit: cover;
+    width: 20px;
+    height: 20px;
+  }
+}
+
+#link-card p {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+
+  color: var(--gray-500);
+}
+
+#link-card:hover {
+  color: var(--blue);
+  border: 4px;
+}
