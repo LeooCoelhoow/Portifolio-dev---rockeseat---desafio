@@ -57,7 +57,7 @@ figure div {
   display: flex;
   justify-content: center;
 
-  margin-top: 4.5rem;
+  
 }
 
 .container img {
@@ -73,6 +73,8 @@ figure {
   padding-inline: 16px;
   padding-block: 8px;
   border-radius: 999px;
+
+  margin-top: 4.5rem;
 }
 
 #html {
